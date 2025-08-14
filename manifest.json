@@ -1,7 +1,7 @@
 {
     "name": "SimpleUnlocker",
-    "version_number": "1.0.0",
-    "description": "A PEAK progression unlocker mod that just gets the job done. (w/ Sash Colors)",
+    "version_number": "1.0.1",
+    "description": "A PEAK cosmetic unlocker mod that just gets the job done. (w/ Sash Colors + Ascents)",
     "website_url": "https://github.com/Cooperly/PEAK-SimpleUnlocker",
     "dependencies": []
 }
