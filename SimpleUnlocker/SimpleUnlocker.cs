@@ -23,10 +23,9 @@ public class SimpleUnlocker : BaseUnityPlugin {
 
     private const string ModGUID = "club.freewifi.void.SimpleUnlocker";
     private const string ModName = "SimpleUnlocker";
-    private const string ModVersion = "1.0.0";
+    private const string ModVersion = "1.1";
     
     public static ConfigEntry<bool> UnlockCosmetics = null!;
-    public static ConfigEntry<SashColor> Sash = null!;
     public static ConfigEntry<bool> UnlockAscents = null!;
     
     private void Awake() {
@@ -36,12 +35,6 @@ public class SimpleUnlocker : BaseUnityPlugin {
             "Unlock Cosmetics",
             true,
             "Unlocks all Cosmetics within the game.");
-        
-        Sash = Config.Bind(
-            "General",
-            "Sash",
-            SashColor.Default,
-            "Changes your Sash color. Default value will select your Sash color based on your highest completed ascent, this will not affect which Ascents you have available.");
         
         UnlockAscents = Config.Bind(
             "General",
