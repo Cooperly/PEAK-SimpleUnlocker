@@ -23,7 +23,7 @@ public class SimpleUnlocker : BaseUnityPlugin {
 
     private const string ModGUID = "club.freewifi.void.SimpleUnlocker";
     private const string ModName = "SimpleUnlocker";
-    private const string ModVersion = "1.1";
+    private const string ModVersion = "1.1.0";
     
     public static ConfigEntry<bool> UnlockCosmetics = null!;
     public static ConfigEntry<bool> UnlockAscents = null!;
